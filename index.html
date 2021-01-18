@@ -84,8 +84,9 @@
 						<div class="card-body">
 							<form>
 								<div class="row">
+									<!-- Левый блок -->
 									<div class="col-12 col-lg-6">
-										<div class="row mb-3">
+										<div class="row">
 											<div class="col-6 col-sm-4 mb-3">
 												<label for="" class="form-label"><strong>ID</strong></label>
 												<input type="text" id="" class="form-control">
@@ -455,138 +456,234 @@
 				<div class="modal-body">
 					<div class="card">
 						<div class="card-body">
-							<form class="row">
-								<div class="col-6">
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">ID</label>
-										<input type="text" id="" class="form-control form-control-lg" value="3ebe156">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">UID</label>
-										<input type="text" id="" class="form-control form-control-lg" value="1">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Накладные</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Профиль</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Грузы</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">КК</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="row">
-										<div class="col-6">
-											<div class="mb-3 input-group-sm">
-												<label for="" class="form-label">Отправляется из</label>
-												<input type="text" id="" class="form-control form-control-lg">
+							<form>
+								<div class="row">
+									<!-- Левый блок -->
+									<div class="col-12 col-lg-6">
+										<div class="row">
+											<div class="col-12 col-sm-6 mb-3">
+												<label for="" class="form-label"><strong>ID</strong></label>
+												<input type="text" id="" class="form-control">
+											</div>
+											<div class="col-12 col-sm-6 mb-3">
+												<label for="" class="form-label"><strong>UID</strong></label>
+												<input type="text" id="" class="form-control">
 											</div>
 										</div>
-										<div class="col-6">
-											<div class="mb-3 input-group-sm">
-												<label for="" class="form-label">Направляется</label>
-												<input type="text" id="" class="form-control form-control-lg">
+										<div class="row">
+											<div class="col-12 mb-2"><strong>Накладные</strong></div>
+											<div class="col-12 col-sm-6 mb-3">
+												<div class="row">
+													<label for="" class="col-form-label col-4">Приходная:</label>
+													<div class="col-sm-8">
+														<input type="text" id="" placeholder="Нет" class="form-control" disabled>
+													</div>
+												</div>
+											</div>
+											<div class="col-12 col-sm-6 mb-3">
+												<div class="row">
+													<label for="" class="col-form-label col-4">Расходная:</label>
+													<div class="col-sm-8">
+														<input type="text" id="" placeholder="Не печаталась" class="form-control" disabled>
+													</div>
+												</div>
+											</div>
+											<div class="col-12 mb-3">
+												<label for="" class="form-label">TTH</label>
+												<select class="form-select">
+													<option value="1">Да</option>
+													<option value="2">Нет</option>
+												</select>
 											</div>
 										</div>
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Город получ.</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="row">
-										<div class="col-6">
-											<div class="mb-3 input-group-sm">
+										<div class="mb-3">
+											<label for="" class="form-label"><strong>Профиль</strong></label>
+											<input type="text" id="" class="form-control">
+										</div>
+										<div class="row">
+											<div class="col-12 mb-2"><strong>Грузы</strong></div>
+											<div class="col-12 col-sm-6 mb-3">
+												<label for="" class="form-label">Наименование</label>
+												<input type="text" id="" class="form-control">
+											</div>
+											<div class="col-12 col-sm-6 mb-3">
+												<label for="" class="form-label">Марка/Модель</label>
+												<input type="text" id="" class="form-control">
+											</div>
+											<div class="col-12 mb-3">
+												<label for="" class="form-label">Количество</label>
+												<input type="text" id="" class="form-control">
+											</div>
+										</div>
+										<div class="mb-3">
+											<label for="" class="form-label"><strong>КК</strong></label>
+											<input type="text" id="" class="form-control">
+										</div>
+										<div class="row">
+											<div class="col-12 col-sm-6 mb-3">
+												<label for="" class="form-label"><strong>Отправлено из</strong></label>
+												<input type="text" id="" class="form-control">
+											</div>
+											<div class="col-12 col-sm-6 mb-3">
+												<label for="" class="form-label"><strong>Отправлено в</strong></label>
+												<input type="text" id="" class="form-control">
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-12 mb-3">
+												<label for="" class="form-label"><strong>Получатель</strong></label>
+												<input type="text" id="" class="form-control">
+											</div>
+											<div class="col-12 col-sm-6 mb-3">
+												<label for="" class="form-label">Город получателя</label>
+												<input type="text" id="" class="form-control">
+											</div>
+											<div class="col-12 col-sm-6 mb-3">
 												<label for="" class="form-label">Адрес получателя</label>
-												<input type="text" id="" class="form-control form-control-lg">
+												<input type="text" id="" class="form-control">
 											</div>
 										</div>
-										<div class="col-6">
-											<div class="mb-3 input-group-sm">
-												<label for="" class="form-label">Получатель</label>
-												<input type="text" id="" class="form-control form-control-lg">
+										<div class="mb-3">
+											<label for="" class="form-label"><strong>Примечания</strong></label>
+											<input type="text" id="" class="form-control">
+										</div>
+										<div class="mb-3">
+											<label for="" class="form-label"><strong>Комментарии</strong></label>
+											<input type="text" id="" class="form-control">
+										</div>
+										<div class="mb-3">
+											<div class="form-check px-3">
+												<input class="form-check-input" type="checkbox" value="" id="01">
+												<label class="form-check-label" for="01">В маршрутке</label>
+											</div>
+										</div>
+										<div class="mb-3">
+											<p><strong>Дополнительные опции</strong></p>
+											<div class="d-flex flex-wrap">
+												<div class="form-check px-3">
+													<input class="form-check-input" type="checkbox" value="" id="001">
+													<label class="form-check-label" for="001">Проверено</label>
+												</div>
+												<div class="form-check px-3">
+													<input class="form-check-input" type="checkbox" value="" id="002">
+													<label class="form-check-label" for="002">Дозвонились</label>
+												</div>
+												<div class="form-check px-3">
+													<input class="form-check-input" type="checkbox" value="" id="003">
+													<label class="form-check-label" for="003">Счет выставлен</label>
+												</div>
+												<div class="form-check px-3">
+													<input class="form-check-input" type="checkbox" value="" id="004">
+													<label class="form-check-label" for="004">Квитанция</label>
+												</div>
+												<div class="form-check px-3">
+													<input class="form-check-input" type="checkbox" value="" id="005">
+													<label class="form-check-label" for="005">Дв доставка</label>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Примечания</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Комментарии</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-								</div>
-								<div class="col-6">
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">В маршрутке</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Дополнительные опции</label>
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="">
-											<label class="form-check-label" for="">Проверить</label>
+									<!-- Правый блок -->
+									<div class="col-12 col-lg-6">
+										<div class="row">
+											<div class="col-12 col-sm-6 mb-3">
+												<label for="" class="form-label"><strong>Дата приема</strong></label>
+												<input type="text" id="" class="form-control">
+											</div>
+											<div class="col-12 col-sm-6 mb-3">
+												<label for="" class="form-label"><strong>Дата отправки</strong></label>
+												<input type="text" id="" class="form-control">
+											</div>
 										</div>
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="" checked>
-											<label class="form-check-label" for="">Дозвониться</label>
+										<div class="mb-3">
+											<label for="" class="form-label"><strong>Статус</strong></label>
+											<input type="text" id="" class="form-control">
 										</div>
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="" checked>
-											<label class="form-check-label" for="">Счет выст</label>
+										<div class="mb-3">
+											<label for="" class="form-label"><strong>DID</strong></label>
+											<input type="text" id="" class="form-control">
 										</div>
-										<p class="">Откл. от марш.</p>
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Дата приема</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Дата отправления</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Статус</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">DID</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Оцен/согл</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">За услугу</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Тип оплаты</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">ПН</label>
-										<select class="form-select" aria-label="Default select example">
-											<option selected>нет</option>
-											<option value="1">один</option>
-											<option value="2">два</option>
-											<option value="3">три</option>
-										</select>
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Вес</label>
-										<input type="text" id="" class="form-control form-control-lg">
-									</div>
-									<div class="mb-3 input-group-sm">
-										<label for="" class="form-label">Предыдущий статус</label>
-										<input type="text" id="" class="form-control form-control-lg">
+										<div class="mb-3">
+											<p><strong>За услугу</strong></p>
+											<div class="row mb-3">
+												<label for="" class="col-form-label col-sm-4">Перевозка</label>
+												<div class="col-sm-8">
+													<input type="text" id="" class="form-control">
+												</div>
+											</div>
+											<div class="row mb-3">
+												<label for="" class="col-form-label col-4">Скидка</label>
+												<div class="col-sm-8">
+													<input type="text" id="" placeholder="0% на напр. МИНСК" class="form-control" disabled>
+												</div>
+											</div>
+											<div class="row mb-3">
+												<label for="" class="col-form-label col-4">Упаковка</label>
+												<div class="col-sm-8">
+													<input type="text" id="" placeholder="10,00" class="form-control" disabled>
+												</div>
+											</div>
+											<div class="row mb-3">
+												<label for="" class="col-form-label col-4">Подъём</label>
+												<div class="col-sm-8">
+													<input type="text" id="" placeholder="Нет" class="form-control" disabled>
+												</div>
+											</div>
+											<div class="row mb-3">
+												<label for="" class="col-form-label col-4">За карту</label>
+												<div class="col-sm-8">
+													<input type="text" id="" placeholder="0,00" class="form-control" disabled>
+												</div>
+											</div>
+											<div class="row mb-3">
+												<label for="" class="col-form-label col-12 col-sm-4">Отключение от маршрута</label>
+												<div class="col-sm-8">
+													<input type="text" id="" placeholder="Нет" class="form-control" disabled>
+												</div>
+											</div>
+											<div class="row mb-3">
+												<label for="" class="col-form-label col-4">Экспресс доставка</label>
+												<div class="col-sm-8">
+													<input type="text" id="" placeholder="Нет" class="form-control" disabled>
+												</div>
+											</div>
+											<hr>
+											<div class="row mb-3">
+												<label for="" class="col-form-label col-4">Итого</label>
+												<div class="col-sm-8">
+													<input type="text" id="" placeholder="20,00" class="form-control" disabled>
+												</div>
+											</div>
+										</div>
+										<div class="mb-3">
+											<label for="" class="form-label"><strong>Тип оплаты</strong></label>
+											<select class="form-select">
+												<option value="1">Тип оплаты 1</option>
+												<option value="2">Тип оплаты 2</option>
+											</select>
+										</div>
+										<div class="mb-3">
+											<label for="" class="form-label"><strong>ПН</strong></label>
+											<select class="form-select">
+												<option value="1">ПН 1</option>
+												<option value="2">ПН 2</option>
+											</select>
+										</div>
+										<div class="mb-3">
+											<label for="" class="form-label"><strong>Подп. до. док.</strong></label>
+											<select class="form-select">
+												<option value="1">Да</option>
+												<option value="2">Нет</option>
+											</select>
+										</div>
+										<div class="mb-3">
+											<label for="" class="form-label"><strong>Вес</strong></label>
+											<input type="text" id="" class="form-control">
+										</div>
+										<div class="mb-3">
+											<label for="" class="form-label"><strong>Предыдущий статус</strong></label>
+											<input type="text" id="" class="form-control" disabled>
+										</div>
 									</div>
 								</div>
 							</form>
@@ -594,7 +691,7 @@
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-primary btn-sm">Сохранить</button>
+					<button type="button" class="btn btn-primary">Сохранить</button>
 				</div>
 			</div>
 		</div>
